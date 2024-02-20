@@ -1,0 +1,4 @@
+# Operaciones de modificación tanto Crear, Actualizar y eliminar
+type Mutation {
+    createPerson(input: String): String!
+}
