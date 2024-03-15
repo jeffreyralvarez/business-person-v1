@@ -1,0 +1,21 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type PersonResponse {
+  id: String!
+  name: String!
+}
+
+type Query {
+  getPerson(id: String!): [PersonResponse!]!
+}
+
+type Mutation {
+  createPerson(person: Person!): PersonResponse!
+}
+
+input Person {
+  id: String!
+  name: String!
+}
